@@ -1,6 +1,6 @@
 ﻿
 
-int mojeCislo = 10;
+int mojeCislo = 1234;
 string mojeSlovo = "Ahoj , Svet!";
 bool mojaBoolHodnota = true;
 DateTime dnesnyDatum = DateTime.Now;
@@ -12,3 +12,5 @@ Console.WriteLine(mojeSlovo);
 Console.WriteLine($"Súčet je:{sucet}");
 Console.WriteLine($"Dnes je: {dnesnyDatum.ToString("yyyy-MM-dd")}");
 Console.WriteLine($"Bool hodnota je: {mojaBoolHodnota}");
+const int MaxStudents = 15;
+Console.WriteLine("Maximálny počet študentov v triede je:" +  MaxStudents);
