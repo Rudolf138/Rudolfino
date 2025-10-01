@@ -7,3 +7,7 @@ Console.WriteLine("Aha,máš teda 16 rokov.");
 Console.WriteLine("Aké je tvoje obľúbené jedlo?");
 string jedlo = Console.ReadLine();
 Console.WriteLine($"Hmm,{jedlo} znie skvele!");
+Console.WriteLine("stlač klávesu : ");
+var key=Console.ReadKey();
+Console.WriteLine();
+Console.WriteLine($"Stlačili ste klávesu:{key.KeyChar} ");
