@@ -1,13 +1,12 @@
-﻿Console.WriteLine("Ako sa voláš?");
-string? meno = Console.ReadLine();
-Console.WriteLine("Ahoj,Rudolf koľko máš rokov ?");
-string vstup = Console.ReadLine() ?? "0";
-int vek = int.Parse(vstup);
-Console.WriteLine("Aha,máš teda 16 rokov.");
-Console.WriteLine("Aké je tvoje obľúbené jedlo?");
-string jedlo = Console.ReadLine();
-Console.WriteLine($"Hmm,{jedlo} znie skvele!");
-Console.WriteLine("stlač klávesu : ");
-var key=Console.ReadKey();
-Console.WriteLine();
-Console.WriteLine($"Stlačili ste klávesu:{key.KeyChar} ");
+﻿Console.WriteLine("Moja Kalkulačka");
+String? prveCislo = Console.ReadLine();
+string? druheCislo  = Console.ReadLine();
+int sucet = int.Parse(prveCislo) + int.Parse(druheCislo);
+Console.WriteLine($"Sucet: {sucet}");
+
+
+int a = 1;
+int b = 2;
+int sum =a + b;
+
+
