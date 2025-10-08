@@ -26,16 +26,39 @@
 //    Console.WriteLine($"Ides na policko cislo {cislo}");
 //}
 
-using System.ComponentModel.Design;
+//using System.ComponentModel.Design;
 
-string? input = Console.ReadLine();
-int number = int.Parse(input);
-if (number >=1 && number <=6);
-{
-    Console.WriteLine("Huraaa mam kocku");
-}
-else
+//string? input = Console.ReadLine();
+//int number = int.Parse(input);
+//if (number >=1 && number <=6)
+//{
+//    Console.WriteLine("Huraaa mam kocku");
+//}
 
+//else
+//{ 
+//    Console.WriteLine("Fuj!Daj mi kocku");
+//}
+
+
+
+
+
+string text = "qwerty";
+text = "iny text";
+text += "pridany text";
+int vek = 18;
+ int vek1 = 20;
+vek += 5;
+vek = 20;
+
+if (vek > 18)
 {
-    Console.WriteLine("Fuj!Daj mi kocku");
+    Console.WriteLine("si dospely");
 }
+else if (vek >= 20)
+{
+
+}
+
+

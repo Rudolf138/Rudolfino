@@ -1,5 +1,19 @@
-﻿int age = 16;
-string name = "Rudolf";
+﻿Console.WriteLine("ahij");
 
-Console.WriteLine(age);
-Console.WriteLine(name);
+string text = "qwerty";
+text = "iny text";
+text += "pridany text";
+int vek = 18;
+int vek1 = 20;
+vek += 5;
+vek = 20;
+
+if (vek > 18)
+{
+    Console.WriteLine("si dospely");
+}
+else if (vek >= 20)
+{
+
+}
+
