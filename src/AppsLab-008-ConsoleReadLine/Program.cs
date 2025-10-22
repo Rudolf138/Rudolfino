@@ -91,26 +91,26 @@
 //}
 
 
-string meno = ZiskajMeno();
-string vek  = ZiskajVek();
+//string meno = ZiskajMeno();
+//string vek  = ZiskajVek();
 
-Console.WriteLine($"Ahoj {meno}.Tvoj vek je {vek} rokov");
+//Console.WriteLine($"Ahoj {meno}.Tvoj vek je {vek} rokov");
 
-string ZiskajMeno()
-{
-    Console.WriteLine("Zadaj meno");
-    string meno = Console.ReadLine();
-    return meno;
-}
-string ZiskajVek()
-{
-    Console.WriteLine("Zadaj vej");
-    string vek = Console.ReadLine();
-    return vek;
+//string ZiskajMeno()
+//{
+//    Console.WriteLine("Zadaj meno");
+//    string meno = Console.ReadLine();
+//    return meno;
+//}
+//string ZiskajVek()
+//{
+//    Console.WriteLine("Zadaj vej");
+//    string vek = Console.ReadLine();
+//    return vek;
 
-}
-void VypisUdaje(string meno, string vek)
-{
-    Console.WriteLine($"Ahoj {meno}. Tvoj vek je {vek} rokov");
-}
+//}
+//void VypisUdaje(string meno, string vek)
+//{
+//    Console.WriteLine($"Ahoj {meno}. Tvoj vek je {vek} rokov");
+//}
 

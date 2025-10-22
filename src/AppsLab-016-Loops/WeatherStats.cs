@@ -14,12 +14,12 @@ public class WeatherStats
     /// <returns>Average temperature.</returns>
     public double AverageTemperature(double[] temperatures)
     {
-       double average = 0;
+        double average = 0;
         foreach (var temperature in temperatures)
-        { 
-        average += temperature;
+        {
+            average += temperature;
         }
-        average/= temperatures.Length;
+        average /= temperatures.Length;
         return average;
     }
 
@@ -34,13 +34,14 @@ public class WeatherStats
         foreach (double temperature in temperatures)
         {
             if (temperature > maximum)
-            { 
+            {
 
-           maximum = temperature;
+                maximum = temperature;
             }
         }
         return maximum;
     }
+}
 
     /// <summary>
     /// Find the minimum temperature from the provided values.
