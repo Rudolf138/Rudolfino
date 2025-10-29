@@ -126,9 +126,6 @@ string GetLetter(string input)
 
 
 
-
-
-
 string GetLetterA()
 {
     return @"
